@@ -40,7 +40,7 @@ task.spawn(function()
     local lastHash = ""
     while true do
         local timer = getRefreshTime():lower()
-        if timer:find("8m 50s") then
+        if timer:find("9m 50s") then
             local canvas = localPlayer.PlayerGui.Event.Canvas.Main.CanvasGroup.ScrollingFrame
             local labels = {
                 canvas.Legendary.Main.Stock,
