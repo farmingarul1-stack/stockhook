@@ -36,7 +36,7 @@ end
 
 -- EVENT SHOP LOOP
 task.spawn(function()
-    print("adone")
+    print("8:50")
     local lastHash = ""
     while true do
         local timer = getRefreshTime():lower()
